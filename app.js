@@ -17,4 +17,13 @@ console.log("Hey it is working!")
 
 var btnTranslate = document.querySelector("#btn-translate");
 
-console.log(btnTranslate);
+// console.log(btnTranslate); This was only to show that you can control HTML from JS
+
+// There is a button and by clicking the button i am sort of interacting with the app. So i should be listening to the click - this is called an event
+
+btnTranslate.addEventListener("click",function clickEventHandler()
+{
+    console.log("clicked")
+})
+
+// To check for different event, just type - Browser events JS
