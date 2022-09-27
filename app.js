@@ -21,9 +21,19 @@ var btnTranslate = document.querySelector("#btn-translate");
 
 // There is a button and by clicking the button i am sort of interacting with the app. So i should be listening to the click - this is called an event
 
-btnTranslate.addEventListener("click",function clickEventHandler()
-{
-    console.log("clicked")
-})
+// btnTranslate.addEventListener("click",function clickEventHandler()
+// {
+//     console.log("clicked")
+// })
 
 // To check for different event, just type - Browser events JS
+
+// Other way is
+
+function clickEventHandler()
+{
+    console.log("clicked!");
+}
+
+btnTranslate.addEventListener("click", clickEventHandler);
+
