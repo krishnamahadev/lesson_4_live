@@ -30,10 +30,17 @@ var btnTranslate = document.querySelector("#btn-translate");
 
 // Other way is
 
+
+var txtInput = document.querySelector("#txt-input")
+
 function clickEventHandler()
 {
     console.log("clicked!");
+    console.log("input is here",txtInput.value)
 }
 
 btnTranslate.addEventListener("click", clickEventHandler);
+
+
+
 
