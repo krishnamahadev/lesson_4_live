@@ -32,6 +32,13 @@ var btnTranslate = document.querySelector("#btn-translate");
 
 
 var txtInput = document.querySelector("#txt-input")
+var ouputresult = document.querySelector("#output")
+
+
+ouputresult.innerText = "krishna here"
+
+// console.log(ouputresult)
+
 
 function clickEventHandler()
 {
@@ -41,6 +48,12 @@ function clickEventHandler()
 
 btnTranslate.addEventListener("click", clickEventHandler);
 
+
+
+// document.querySelector("textarea")
+// .btn-primary;
+// #input-btn;
+// "input[name='tanslator']"
 
 
 
